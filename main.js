@@ -48,6 +48,6 @@ function getPicture() {
             }
         })
         .catch(error => console.log(error));
-    }
+    };
     
-}
+};
