@@ -4,29 +4,33 @@
         <title>Plouha StarWatchers Club APOD</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <h1>Plouha StarWatchers Club APOD</h1>
+            <div class="wrapper">
+                <h1>Plouha StarWatchers Club APOD</h1>
 
-        <p>Please choose a date in order to retrieve a photo from Nasa!</p>
+                <p>Please choose a date in order to retrieve a photo from Nasa!</p>
 
-        <form>
-            <label for="date">Date:</label>
-            <input id="date" type="date" required>
-            <button type="button">Search</button>
-        </form>
+                <form>
+                    <label for="date">Date:</label>
+                    <input id="date" type="date" required>
+                    <button type="button">Search</button>
+                </form>
+            </div>
+            <h2>Please choose today's date or a previous date. We're not allowed to time travel into the future.</h2>
 
-        <h2></h2>
+            <img src="" alt="">
 
-        <img src="" alt="">
+            <iframe src="" class="hidden"></iframe>
 
-        <iframe src="" class="hidden"></iframe>
+            <span id="copyright"></span>
 
-        <span id="copyright"></span>
+            <p id="desc" ></p>
 
-        <p id="desc" ></p>
-
-        <script src="main.js"></script>
+        <script type="text/javascript" src="main.js"></script>
     </body>
 </html>
