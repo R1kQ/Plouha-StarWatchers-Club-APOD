@@ -5,7 +5,7 @@ Integrated with NASA's API, this application will display a space picture/video 
 
 Link to project: http://plouha-starwatch-apod.netlify.app
 
-![My site being used. Clicking of the search button in order to reveal a picture from NASA's API and its description.] (https://i.imgur.com/YuzkQUu.gif)
+[Imgur](https://i.imgur.com/YuzkQUu.gifv)
 
 ---
 <br>
