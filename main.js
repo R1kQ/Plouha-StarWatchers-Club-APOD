@@ -1,6 +1,7 @@
 let date = "";
 const searchButton = document.querySelector("button");
-let url = "https://api.nasa.gov/planetary/apod/?api_key=s6O0YbtWTILcUnzg8MnjjtmKQksaEDrh3D8zYL0l";
+const token = config.API_TOKEN;
+let url = `https://api.nasa.gov/planetary/apod/?api_key=${token}`;
 let image = document.querySelector("img");
 let h2 = document.querySelector("h2");
 let description = document.querySelector("#desc");
@@ -19,7 +20,7 @@ function getPicture() {
     image.alt = "";
     copyright.innerText = "";
     description.innerText = "";
-    url = "https://api.nasa.gov/planetary/apod/?api_key=s6O0YbtWTILcUnzg8MnjjtmKQksaEDrh3D8zYL0l";
+    url = `https://api.nasa.gov/planetary/apod/?api_key=${token}`;
     video.src = "";
     video.classList.add("hidden");
 
