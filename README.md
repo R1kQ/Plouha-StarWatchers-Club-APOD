@@ -1,7 +1,7 @@
 # Plouha-StarWatchers-Club-APOD
 
 <br>
-<p>Integrated with NASA's API, this application will display a space picture/video of the day. To be used by the Plouha StarWatchers Club.</p>
+<p>Integrated with NASA's API, this application will display a space picture/video of the day. To be used by the Plouha StarWatchers Astronomy Club.</p>
 
 
 Link to project:http://plouha-starwatch-apod.netlify.app
