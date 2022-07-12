@@ -3,6 +3,7 @@
 <br>
 Integrated with NASA's API, this application will display a space picture/video of the day.
 
+
 Link to project: http://plouha-starwatch-apod.netlify.app
 
 
@@ -13,22 +14,22 @@ Link to project: http://plouha-starwatch-apod.netlify.app
 <br>
 
 **How It's Made:**
-Tech used: HTML, CSS, JavaScript, Framework of choice
+Tech used: HTML, CSS, JavaScript, NASA Astronomy Picture of the Day API
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write something. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+
+This program is constructed with semantic HTML, CSS, JavaScript and utilizes NASA's APOD API. With the use of the API, we're able to see any picture of video from NASA's databse for the given date. You can access any date going back to the 1990's! The program will prompt the user to choose a date, the user will click the search button (carrying an EventListener) once a date has been chosen, and then the particular image/video will be rendered on the page. Along with the image/video, we're also grabbing a description of it, provided by NASA, and any copyright information. You'll find some truly inspiring information with this app, I promise! 
 
 
 ---
 <br>
 
 **Optimizations**
-(optional)
-
-You don't have to include this section but interviewers love that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are GREAT to bring up in interviews and you can use this section as reference when studying for technical interviews!
-
+1. Make site more responsive
+2. Make site more mobile friendly
+3. Add light/dark theme
 
 ---
 <br>
 
 **Lessons Learned:**
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those whoa this is awesome or fuck yeah I did it! moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+In working with this project, I learned how to sift through JSON information given back from the NASA API. I had to create some restraints on what information could be shared and how to edit the page when switching between rendering photos and videos. I also was able to work with <iframe>s in order to render the correct YouTube video.
