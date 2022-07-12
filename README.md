@@ -13,7 +13,8 @@ Link to project: http://plouha-starwatch-apod.netlify.app
 ---
 <br>
 
-**How It's Made:**
+## How It's Made ##
+
 Tech used: HTML, CSS, JavaScript, NASA Astronomy Picture of the Day API
 
 
@@ -23,7 +24,7 @@ This program is constructed with semantic HTML, CSS, JavaScript and utilizes NAS
 ---
 <br>
 
-**Optimizations**
+## Optimizations ##
 1. Make site more responsive
 2. Make site more mobile friendly
 3. Add light/dark theme
@@ -31,5 +32,6 @@ This program is constructed with semantic HTML, CSS, JavaScript and utilizes NAS
 ---
 <br>
 
-**Lessons Learned:**
+## Lessons Learned ##
+
 In working with this project, I learned how to sift through JSON information given back from the NASA API. I had to create some restraints on what information could be shared and how to edit the page when switching between rendering photos and videos. I also was able to work with <iframe>s in order to render the correct YouTube video.
